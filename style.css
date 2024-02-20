@@ -333,6 +333,32 @@ h1 {
         width: 70%;
         height: 100%;
     }
+
+    .isi-container-biodataS{
+        margin-top: -100;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .aboutme-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 400px;
+    }
+    .aboutme-left {
+        width: 70%;
+        height: 90%;
+    }
+
+    .aboutme-right{
+        width: 70%;
+        height: 100%;
+    }
+
+    .isi-container-biodataS{
+        margin-top: -70;
+    }
 }
 
 .aboutme-info {
